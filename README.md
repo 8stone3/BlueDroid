@@ -62,7 +62,7 @@ The robot is designed to be controlled using the **BlueDroid Android application
 - Receive status updates (e.g., battery voltage, battery current).
 
 ## License
-This project is open-source and released under the **MIT License**.
+This firmware is open-source and released under the **MIT License**.
 
 ## Author
 Developed by **Andrzej Ptaszyński** as part of an educational robotics project.
