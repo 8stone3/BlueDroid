@@ -68,5 +68,5 @@ This firmware is open-source and released under the **MIT License**.
 Developed by **Andrzej Ptaszyński** as part of an educational robotics project.
 
 ## Links
-- **3D model files & assembly guide**: [To be added]
+- **3D model files & assembly guide**: https://www.printables.com/model/518784-bluedroid
 
