@@ -6,7 +6,6 @@ This repository contains the firmware for a modular, 3D-printable robot designed
 ## Features
 - **Bluetooth Classic (SPP) communication** for wireless control
 - **Modular motor control** with PWM signals
-- **Adjustable speed settings**
 - **Basic movement commands**: forward, backward, turn left, turn right, and stop
 - **Status indication using built-in LED**
 - **Automatic connection handling**
@@ -16,7 +15,7 @@ This repository contains the firmware for a modular, 3D-printable robot designed
 - **Motor driver** (supports PWM control)
 - **DC gear motors** (1:48 or 1:90 ratio, depending on wheel size)
 - **18650 battery pack** with **SW6106-based PCB** for power management
-- **INA216 module** for battery voltage and current monitoring (optional)
+
 
 ## Installation
 1. Install **Arduino IDE** (latest version recommended).
@@ -39,7 +38,7 @@ This repository contains the firmware for a modular, 3D-printable robot designed
 | `GoBackward`  | Moves the robot backward      |
 | `TurnLeft`    | Rotates the robot left        |
 | `TurnRight`   | Rotates the robot right       |
-| `SetSpeed X`  | Sets the motor speed (0-255) |
+
 
 ## Code Overview
 ### `setup()`
@@ -60,16 +59,14 @@ This repository contains the firmware for a modular, 3D-printable robot designed
 The robot is designed to be controlled using the **BlueDroid Android application**, which can:
 - Connect to the ESP32 via Bluetooth.
 - Send movement commands.
-- Receive status updates (e.g., battery voltage, connection status).
+- Receive status updates (e.g., battery voltage, battery current).
 
 ## License
 This project is open-source and released under the **MIT License**.
 
 ## Author
-Developed by **[Your Name]** as part of an educational robotics project.
+Developed by **Andrzej Ptaszyński** as part of an educational robotics project.
 
 ## Links
 - **3D model files & assembly guide**: [To be added]
-- **BlueDroid Android App**: [To be added]
-- **Source code repository**: [GitHub link]
 
